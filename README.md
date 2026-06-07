@@ -22,7 +22,9 @@ The second task was a shift to unsupervised learning. I loaded the classic MNIST
 I used a K-Means Clustering model (set to 10 clusters) to see if it could naturally group the images of handwritten numbers (0-9) based purely on their features.
 To check if the clustering actually worked, I mapped each random cluster to whatever the most frequent true label was inside that group, and calculated the F1 score.
 Clustering Result:
+
 Macro-averaged F1 score: 0.8627854786352394
+
 How to run this
 If you want to run the code yourself, just clone this repo, make sure you have the used_cars.csv dataset in the same folder, and run the 15-Used_Car_Price_Prediction_Summer_2026.ipynb notebook cell by cell.
 
